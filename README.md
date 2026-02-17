@@ -8,6 +8,8 @@
 
 The application is split into a streamlined dual-pane editor and analysis suite:
 
+ ![](lib/image.jpg)
+
 * **Smart Editor**: A robust code input area supporting multiple languages (currently showing Java support).
 * **Analysis Results**: Real-time bug detection powered by `gemma-3-12b-it`. It flags specific lines with warnings, such as unreachable code or infinite loops.
 * **Simple Explanation**: A human-friendly breakdown of *why* the bug exists, powered by `gemma-3-4b-it`. It turns complex compiler warnings into understandable logic.
